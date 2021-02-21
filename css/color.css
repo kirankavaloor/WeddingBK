@@ -1,0 +1,26 @@
+
+.home-section .home-content i,
+.header.fixed .logo a i,
+.header .logo a i,
+.footer .footer-content p,
+.footer .footer-content .couple-name h2,
+.event-section .event-item-inner span,
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3,
+.header .nav ul li a.active,
+.header .nav ul li a:hover,
+.loading i{
+    color: #fb839e;
+}
+
+.footer .footer-content .couple-name,
+.event-section .event-item-inner:before,
+.couple-section .couple img {
+    border-color: #fb839e;
+}
+
+.contact-section,
+.event-section,
+.couple-section .social-links a:hover i {
+    background-color: #fb839e;
+}

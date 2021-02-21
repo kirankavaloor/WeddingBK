@@ -1,0 +1,137 @@
+
+@media (max-width:768px){
+    .header .nav{
+        display: block;
+    }
+    
+}
+
+@media(max-width:991px){
+    .event-section .event-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media(max-width:767px){
+    .header .logo {
+        padding: 8px 15px;
+    }
+    .header .hamburger-btn{
+        display: flex;
+        margin-right: 15px;
+    }
+    .header .nav{
+        flex: 0 0 100%;
+        max-width: 100%;
+        background-color: #ffffff;
+        border-top: 1px solid #cccccc;
+        display: none;
+    }
+    .header .nav ul li{
+        display: block;
+        margin-left: 0;
+    }
+    .header .nav ul li a{
+        color: #555555;
+        padding: 10px 0;
+    }
+    .home-section .home-content h1 {
+        font-size: 60px;
+    }
+    .couple-section .couple{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .couple-section .couple:nth-child(2){
+        margin-top: 40px;
+    }
+    .couple-section .couple:nth-child(2):before{
+        content: none;
+    }
+    .couple-section .couple i.fa-heart{
+        display: none;
+    }
+
+    .event-section .event-item:nth-child(2){
+        transform: translateY(0px);
+    }
+
+    .event-section .event-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .contact-section .contact-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .contact-section .contact-item:nth-child(2){
+        margin-top: 40px;
+    }
+
+    video{
+        width: 600px;
+        height: 350px;
+    }
+
+    .footer{
+        /* background-image: url(../images/2.JPG); */
+        background-size: cover;
+        background-position: center;
+    }
+   
+    
+
+}
+
+@media(max-width:574px){
+    .home-section .home-section h1 {
+        font-size: 40px;
+    }
+    .contact-section .contact-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    .contact-section .contact-item:nth-child(2){
+        margin-top: 40px;
+    }
+    
+    video{
+        width: 300px;
+        height: 150px;
+    }
+
+    /* Footer Section */
+
+    .footer .footer-content .couple-name{
+        width: 200px;
+        height: 200px;
+        border:1px solid #fb839e;
+        border-radius: 50%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .footer-content .couple-name h2{
+        font-size: 30px;
+        font-family: "Great Vibes", cursive;
+        color: #fb839e;
+        margin: 0;
+        font-weight: normal;
+        text-align: center;
+    }
+    .footer .footer-content .couple-name p{
+        font-size: 30px;
+        font-family: "Great Vibes", cursive;
+        color: #fb839e;
+        margin: 0;
+        font-weight: normal;
+        text-align: center;
+    }
+    /* Footer Section */
+
+}
